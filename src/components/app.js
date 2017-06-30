@@ -29,7 +29,7 @@ class Default extends React.Component {
       } else {
         this.setState({
           hasError: true,
-          errorMsg: "This device couldn't be reached at dweet.io",
+          errorMsg: "This device can't be reached at dweet.io",
           buttonPressed: true,
         });
       }
